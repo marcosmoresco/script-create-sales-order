@@ -6,5 +6,5 @@
 ## Run
 
     $ cd script-create-sales-order.git 
-    $ npm run start		
+    $ npm start		
  		 	 	  	
