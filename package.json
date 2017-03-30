@@ -1,0 +1,16 @@
+{
+  "name": "script-create-sales-order",
+  "version": "1.0.0",
+  "description": "Create Sales Order",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Marcos Moresco",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^1.1.0",
+    "soap": "^0.18.0"
+  }
+}
