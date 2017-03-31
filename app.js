@@ -3,7 +3,7 @@ var soap = require('soap'),
 	logger = log4js.getLogger(),
 	item = require('./item');
 
-var url = 'http://algarcrmhom.network.ctbc:9000/salesOrderService?wsdl';
+var url = 'http://localhost:9000/salesOrderService?wsdl';
 
 var args = {
 	localityId: 3467,
@@ -72,4 +72,4 @@ var createSalesOrders = function(n) {
 
 //RUN
 logger.info("	:::::::::::: Create SalesOrders	:::::::::::: ");
-createSalesOrders(3);
+createSalesOrders(1);
