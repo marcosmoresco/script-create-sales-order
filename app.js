@@ -46,7 +46,7 @@ var create = function() {
 			return;
 		}
 
-		client.save(args, function(err, result) {			
+		client.save(args, function(err, result) {
 
 			if (!!err) {
 				logger.error(err);
@@ -61,11 +61,12 @@ var create = function() {
 
 var createSalesOrders = function(n) {
 
-	if (n > 0) {
+	if (!!n) {
 
 		for (var i = 0; i < n; i++) {
 
-			create();			
+			create();
+
 		}
 	}
 };
